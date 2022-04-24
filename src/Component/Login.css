@@ -1,0 +1,35 @@
+.loginDiv{
+    height: 25rem;
+    width: 20rem;
+    border: 1px solid green;
+    /* border-radius: 2px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 33rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.loginDiv:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,4),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.login-btn{background-image: linear-gradient(to right, #200122 0%, #6f0000  51%, #200122  100%)}
+.login-btn{
+   margin-top: 30px;
+   margin-left:84px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .login-btn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }

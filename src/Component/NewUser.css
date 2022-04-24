@@ -1,0 +1,44 @@
+/* .container{
+    box-shadow: -108px 38px 237px 64px rgba(252,252,252,1) inset;
+    -webkit-box-shadow: -108px 38px 237px 64px rgba(252,252,252,1) inset;
+    -moz-box-shadow: -108px 38px 237px 64px rgba(252,252,252,1) inset;
+} */
+
+.regDiv{
+    height: 30rem;
+    width: 20rem;
+    border: 1px solid green;
+    /* border-radius: 2px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 33rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.regDiv:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,4),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #200122 0%, #6f0000  51%, #200122  100%)}
+.btn-grad {
+   margin-top: 30px;
+   margin-left:70px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }

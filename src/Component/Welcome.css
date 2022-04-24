@@ -1,0 +1,43 @@
+
+
+#frontHeading{
+    /* font-family: 'Lobster', cursive;
+    color: rgb(4, 78, 29);
+    text-shadow: rgb(158, 31, 31); */
+
+
+    margin: 1em 0 0.5em 0;
+    color: #8a5715;
+    font-weight: bold;
+    /* font-style: italic; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-shadow: 0 2px rgb(67, 117, 70), 0 3px #777;
+
+}
+
+.btnOnWebpage{
+    background-color: aliceblue;
+}
+
+.primary-button {
+    position:relative;
+    margin-top: 5rem;
+    margin-right: 1rem;
+    padding: .6rem;
+    width: 10rem;
+    background-color: rgb(99, 8, 8) ;
+    border-radius: 2rem;
+    color: #fff;
+    font-size: 1.2rem;
+    /* transition: all .3s; */
+    cursor: pointer;
+    text-transform: capitalize 
+
+ }
+.primary-button:hover{
+    background-color: black;
+    color: white 
+} 

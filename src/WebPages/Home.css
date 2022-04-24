@@ -1,0 +1,16 @@
+/* .homeStyle{
+    width: 100%;
+    height: 100vh;
+    background: url('.././assets/images/green.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+} */
+
+.comment{
+    font-weight: bold;
+    font-size: large;
+}
+
+
